@@ -1,7 +1,7 @@
 FROM openjdk:11.0.3-jdk
 
 RUN apt-get update
-RUN apt-get install -y python3-pip
+RUN apt-get install -y python3-pip libatlas3-base libopenblas-base
 
 # add requirements.txt, written this way to gracefully ignore a missing file
 COPY . .
@@ -21,7 +21,7 @@ RUN unzip ijava-kernel.zip -d ijava-kernel \
 
 # Set up the user environment
 
-ENV NB_USER jovyan
+ENV NB_USER prom
 ENV NB_UID 1000
 ENV HOME /home/$NB_USER
 
@@ -33,8 +33,8 @@ RUN adduser --disabled-password \
 COPY . $HOME
 RUN chown -R $NB_UID $HOME
 
-USER $NB_USER
+#USER $NB_USER
 
 # Launch the notebook server
 WORKDIR $HOME
-CMD ["jupyter", "notebook", "--ip", "0.0.0.0"]
+CMD ["jupyter", "notebook", "--allow-root", "--ip", "0.0.0.0"]
