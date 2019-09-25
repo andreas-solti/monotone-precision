@@ -4,6 +4,11 @@
 
 [![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/andreas-solti/monotone-precision/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/andreas-solti/monotone-precision/master?urlpath=lab)
 
+## Experiment description
+Run the code in [00_Experiment_TOSEM.ipynb](https://mybinder.org/v2/gh/andreas-solti/monotone-precision/master?filepath=00_Experiment_TOSEM.ipynb) to reproduce the experiment and afterwards run `01_Experiment_Evaluation.ipynb` to recreate the data visualizations.
+
+## Description
+
 A [Binder](https://mybinder.org/) compatible repository to try out the [IJava](https://github.com/SpencerPark/IJava) kernel with just a web browser. Depending on if the docker image is already built, spawning the notebook may take some time and so please be patient with it.
 
 In the future this repository may be populated with more example notebooks but it mainly serves to meet the requirements for using the [Binder](https://mybinder.org/) service to play around with the [IJava](https://github.com/SpencerPark/IJava) kernel.
