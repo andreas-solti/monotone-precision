@@ -2,7 +2,7 @@
 ## ijava-binder based repository for the experiments in the paper: <br>"Monotone Precision and Recall Measures for Comaring Executions and Specifications of Dynamic Systems"
 
 
-[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)
+[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/andreas-solti/monotone-precision/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/andreas-solti/monotone-precision/master?urlpath=lab)
 
 A [Binder](https://mybinder.org/) compatible repository to try out the [IJava](https://github.com/SpencerPark/IJava) kernel with just a web browser. Depending on if the docker image is already built, spawning the notebook may take some time and so please be patient with it.
 
