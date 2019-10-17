@@ -1,0 +1,3 @@
+setProxyData, connect, connect, connect, connect, authenticateWithPassword, openSession, close, done
+setProxyData, connect, connect, authenticateWithPassword, openSession, done
+setProxyData, connect, authenticateWithPassword, openSession, close, done

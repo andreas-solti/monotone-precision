@@ -1,0 +1,2 @@
+sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.close()
+sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.executeUpdate(String), sql.Statement.close()

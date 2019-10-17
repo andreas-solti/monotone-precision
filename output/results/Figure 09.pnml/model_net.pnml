@@ -1,0 +1,94 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+   <net id="noID imported from (data/javert/Figure 09.pnml)" type="http://www.pnml.org/version-2009/grammar/ptnet">
+      <toolspecific tool="StochasticPetriNet" version="0.2">
+         <property key="executionPolicy">race (enabling memory)</property>
+         <property key="timeUnit">minutes</property>
+      </toolspecific>
+      <page id="p1">
+         <transition id="t4">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>index.IndexWriter.addDocument(Document)</text>
+            </name>
+         </transition>
+         <transition id="t1">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>document.Document.&lt;init&gt;()</text>
+            </name>
+         </transition>
+         <transition id="t2">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>document.Field.&lt;init&gt;(String,String,Store,Index)</text>
+            </name>
+         </transition>
+         <transition id="t3">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>document.Field.&lt;init&gt;(String,Reader)</text>
+            </name>
+         </transition>
+         <place id="p1">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p1</text>
+            </name>
+         </place>
+         <place id="p2">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p2</text>
+            </name>
+         </place>
+         <place id="p3">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p3</text>
+            </name>
+         </place>
+         <place id="p5">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p5</text>
+            </name>
+         </place>
+         <arc id="a0" source="t4" target="p5"/>
+         <arc id="a1" source="p1" target="t1"/>
+         <arc id="a2" source="t1" target="p2"/>
+         <arc id="a3" source="p2" target="t3"/>
+         <arc id="a4" source="p2" target="t2"/>
+         <arc id="a5" source="t3" target="p3"/>
+         <arc id="a6" source="t2" target="p2"/>
+         <arc id="a7" source="p3" target="t4"/>
+      </page>
+   </net>
+</pnml>

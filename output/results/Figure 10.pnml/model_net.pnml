@@ -1,0 +1,267 @@
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+   <net id="noID imported from (data/javert/Figure 10.pnml)" type="http://www.pnml.org/version-2009/grammar/ptnet">
+      <toolspecific tool="StochasticPetriNet" version="0.2">
+         <property key="executionPolicy">race (enabling memory)</property>
+         <property key="timeUnit">minutes</property>
+      </toolspecific>
+      <page id="p1">
+         <transition id="t4">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.SecretKeyFactory.generateSecret(KeySpec)</text>
+            </name>
+         </transition>
+         <transition id="t5">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.Cipher.getInstance(String)</text>
+            </name>
+         </transition>
+         <transition id="t6">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.Cipher.init(int,Key,AlgorithmParameterSpec)</text>
+            </name>
+         </transition>
+         <transition id="t7">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.CipherOutputStream.&lt;init&gt;(OutputStream,Cipher)</text>
+            </name>
+         </transition>
+         <transition id="t8">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.OutputStreamWriter.&lt;init&gt;(OutputStream,String)</text>
+            </name>
+         </transition>
+         <transition id="t9">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.PrintWriter.&lt;init&gt;(Writer,boolean)</text>
+            </name>
+         </transition>
+         <transition id="t10">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.PrintWriter.close()</text>
+            </name>
+         </transition>
+         <transition id="t12">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.PrintWriter.print(String)</text>
+            </name>
+         </transition>
+         <transition id="t11">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.PrintWriter.write(String)</text>
+            </name>
+         </transition>
+         <transition id="t13">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>io.PrintWriter.println(String)</text>
+            </name>
+         </transition>
+         <transition id="t1">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.spec.PBEParameterSpec.&lt;init&gt;(byte[],int)</text>
+            </name>
+         </transition>
+         <transition id="t2">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.spec.PBEKeySpec.&lt;init&gt;(char[])</text>
+            </name>
+         </transition>
+         <transition id="t3">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <toolspecific tool="StochasticPetriNet" version="0.2">
+               <property key="invisible">false</property>
+            </toolspecific>
+            <name>
+               <text>crypto.SecretKeyFactory.getInstance(String)</text>
+            </name>
+         </transition>
+         <place id="p1">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p1</text>
+            </name>
+         </place>
+         <place id="p2">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p2</text>
+            </name>
+         </place>
+         <place id="p3">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p3</text>
+            </name>
+         </place>
+         <place id="p4">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p4</text>
+            </name>
+         </place>
+         <place id="p5">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p5</text>
+            </name>
+         </place>
+         <place id="p6">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p6</text>
+            </name>
+         </place>
+         <place id="p7">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p7</text>
+            </name>
+         </place>
+         <place id="p8">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p8</text>
+            </name>
+         </place>
+         <place id="p9">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p9</text>
+            </name>
+         </place>
+         <place id="p10">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p10</text>
+            </name>
+         </place>
+         <place id="p11">
+            <graphics>
+               <dimension x="40.0" y="40.0"/>
+            </graphics>
+            <name>
+               <text>p11</text>
+            </name>
+         </place>
+         <arc id="a0" source="t13" target="p10"/>
+         <arc id="a1" source="t7" target="p8"/>
+         <arc id="a2" source="t8" target="p9"/>
+         <arc id="a3" source="p4" target="t4"/>
+         <arc id="a4" source="p5" target="t5"/>
+         <arc id="a5" source="p10" target="t11"/>
+         <arc id="a6" source="p9" target="t9"/>
+         <arc id="a7" source="t10" target="p11"/>
+         <arc id="a8" source="t9" target="p10"/>
+         <arc id="a9" source="t6" target="p7"/>
+         <arc id="a10" source="t12" target="p10"/>
+         <arc id="a11" source="t1" target="p2"/>
+         <arc id="a12" source="t2" target="p3"/>
+         <arc id="a13" source="p3" target="t3"/>
+         <arc id="a14" source="t11" target="p10"/>
+         <arc id="a15" source="p1" target="t1"/>
+         <arc id="a16" source="p6" target="t6"/>
+         <arc id="a17" source="p10" target="t12"/>
+         <arc id="a18" source="p10" target="t10"/>
+         <arc id="a19" source="p10" target="t13"/>
+         <arc id="a20" source="t5" target="p6"/>
+         <arc id="a21" source="p2" target="t2"/>
+         <arc id="a22" source="t4" target="p5"/>
+         <arc id="a23" source="p7" target="t7"/>
+         <arc id="a24" source="t3" target="p4"/>
+         <arc id="a25" source="p8" target="t8"/>
+      </page>
+   </net>
+</pnml>
