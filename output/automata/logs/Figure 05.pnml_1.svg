@@ -1,0 +1,40 @@
+<svg width="505px" height="69px"
+ viewBox="0.00 0.00 379.00 52.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.000022500562514 1.000022500562514) rotate(0) translate(4 48)">
+<title>Automaton</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-48 375,-48 375,4 -4,4"/>
+<!-- 0 -->
+<g id="node1" class="node"><title>0</title>
+<ellipse fill="none" stroke="black" cx="109" cy="-22" rx="18" ry="18"/>
+</g>
+<!-- 1 -->
+<g id="node2" class="node"><title>1</title>
+<ellipse fill="none" stroke="black" cx="227" cy="-22" rx="18" ry="18"/>
+</g>
+<!-- 0&#45;&gt;1 -->
+<g id="edge1" class="edge"><title>0&#45;&gt;1</title>
+<path fill="none" stroke="black" d="M127.116,-22C145.964,-22 176.531,-22 198.696,-22"/>
+<polygon fill="black" stroke="black" points="198.814,-25.5001 208.814,-22 198.814,-18.5001 198.814,-25.5001"/>
+<text text-anchor="middle" x="168" y="-25.8" font-family="Times,serif" font-size="14.00">u0005</text>
+</g>
+<!-- 2 -->
+<g id="node3" class="node"><title>2</title>
+<ellipse fill="none" stroke="black" cx="349" cy="-22" rx="18" ry="18"/>
+<ellipse fill="none" stroke="black" cx="349" cy="-22" rx="22" ry="22"/>
+</g>
+<!-- 1&#45;&gt;2 -->
+<g id="edge2" class="edge"><title>1&#45;&gt;2</title>
+<path fill="none" stroke="black" d="M245.193,-22C263.767,-22 293.762,-22 316.57,-22"/>
+<polygon fill="black" stroke="black" points="316.793,-25.5001 326.792,-22 316.792,-18.5001 316.793,-25.5001"/>
+<text text-anchor="middle" x="286" y="-25.8" font-family="Times,serif" font-size="14.00">u0000</text>
+</g>
+<!-- initial -->
+<g id="node4" class="node"><title>initial</title>
+</g>
+<!-- initial&#45;&gt;0 -->
+<g id="edge3" class="edge"><title>initial&#45;&gt;0</title>
+<path fill="none" stroke="black" d="M54.195,-22C62.6538,-22 72.0513,-22 80.5951,-22"/>
+<polygon fill="black" stroke="black" points="80.8257,-25.5001 90.8257,-22 80.8257,-18.5001 80.8257,-25.5001"/>
+</g>
+</g>
+</svg>
