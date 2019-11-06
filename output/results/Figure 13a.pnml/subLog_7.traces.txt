@@ -1,7 +1,0 @@
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.executeUpdate(String), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.executeUpdate(String), sql.Statement.getWarnings(), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.getWarnings(), sql.Statement.getWarnings(), sql.Statement.getWarnings(), sql.Statement.executeUpdate(String), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.executeUpdate(String), sql.Statement.executeUpdate(String), sql.Statement.close()
-sql.DriverManager.getConnection(String,Properties), sql.Connection.getTransactionIsolation(), sql.Connection.createStatement(), sql.Statement.close()
