@@ -24,7 +24,7 @@ jupyterlab==1.2.21
 pandas
 seaborn
 mistune==0.8.4
-nbconvert==5.4.1
+nbconvert==6.3.0
 nbformat==4.4.0
 notebook==6.4.10
 pandocfilters==1.4.2
